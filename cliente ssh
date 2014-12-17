@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "USUARIO"
+read user
+echo "IP"
+read ip
+
+ssh $user@$ip
