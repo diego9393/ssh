@@ -1,7 +1,9 @@
 #!/bin/bash
-echo "USUARIO"
-read user
-echo "IP"
-read ip
 
-ssh $user@$ip
+echo -e "\e[33mIP"
+read usuario
+echo
+echo -e "\e[34mIP"
+read ip
+echo
+ssh $usuario@$ip
