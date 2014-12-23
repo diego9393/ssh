@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[33mIP"
+echo -e "\e[33mUSUARIO"
 read usuario
 echo
 echo -e "\e[34mIP"
